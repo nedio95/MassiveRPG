@@ -1,0 +1,40 @@
+# Ignore Unity-generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Bb]uild/
+[Bb]uilds/
+[Oo]bj/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/
+ProjectSettings/EditorBuildSettings.asset
+
+# Ignore system files
+.DS_Store
+*.swp
+*.tmp
+*.bak
+*.pidb
+*.suo
+*.user
+*.userprefs
+*.booproj
+*.svd
+
+# Ignore JetBrains Rider & VSCode settings
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.sln.*
+*.vcxproj*
+.vscode/
+
+# Ignore Unity auto-generated packages
+Packages/packages-lock.json
+
+# Allow package manifest to be tracked (dependency list)
+!Packages/manifest.json
+
+# Track only what's important
+# Assets is your working code and art
