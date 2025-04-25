@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-public class AssignCharacterUI : MonoBehaviour
+public class AssignCharacterUI : PanelBase
 {
     public TMP_Dropdown playerDropdown;
     public TMP_Text characterNameText;

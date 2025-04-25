@@ -1,7 +1,7 @@
 using UnityEngine;
 using TMPro;
 
-public class JoinGameUI : MonoBehaviour
+public class JoinGameUI : PanelBase
 {
     public TMP_InputField joinGameIdInput;
     public GameObject playerPanel;
@@ -20,5 +20,10 @@ public class JoinGameUI : MonoBehaviour
 
         gameObject.SetActive(false);
         playerPanel.SetActive(true);
+    }
+
+    public void Refresh()
+    {
+        // maybe reload available games to join if you add that later
     }
 }

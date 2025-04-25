@@ -2,7 +2,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class CharacterDetailUI : MonoBehaviour
+public class CharacterDetailUI : PanelBase
 {
     public TMP_InputField nameInput;
     public TMP_InputField roleInput;

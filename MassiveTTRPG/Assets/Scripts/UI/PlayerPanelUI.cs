@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerPanelUI : MonoBehaviour
+public class PlayerPanelUI : PanelBase
 {
     public Transform publicListParent;
     public Transform assignedListParent;

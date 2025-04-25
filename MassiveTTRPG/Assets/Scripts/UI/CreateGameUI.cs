@@ -1,7 +1,7 @@
 using UnityEngine;
 using TMPro;
 
-public class CreateGameUI : MonoBehaviour
+public class CreateGameUI : PanelBase
 {
     public TMP_InputField gameNameInput;
     public GameObject gmPanel;
@@ -11,5 +11,10 @@ public class CreateGameUI : MonoBehaviour
         GameManager.Instance.CreateGame(gameNameInput.text);
         gameObject.SetActive(false);
         gmPanel.SetActive(true);
+    }
+
+    public void Refresh()
+    {
+        // auto-fill a new suggested game name
     }
 }

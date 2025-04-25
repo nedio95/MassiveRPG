@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GMPanelUI : MonoBehaviour
+public class GMPanelUI : PanelBase
 {
     public Transform listParent;
     public GameObject characterCardPrefab;

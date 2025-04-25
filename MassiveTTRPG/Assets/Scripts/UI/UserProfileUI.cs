@@ -3,7 +3,7 @@ using TMPro;
 using System.Collections.Generic;
 using System.IO;
 
-public class UserProfileUI : MonoBehaviour
+public class UserProfileUI : PanelBase
 {
     public TMP_InputField usernameInput;
     public GameObject userProfilePanel;
@@ -14,8 +14,7 @@ public class UserProfileUI : MonoBehaviour
 
     public void Start()
     {
-        PopulateSavedUsers();
-        
+        PopulateSavedUsers(); 
     }
 
     public void OnCreateProfilePressed()

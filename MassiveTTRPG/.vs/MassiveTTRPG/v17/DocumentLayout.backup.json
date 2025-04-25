@@ -3,11 +3,23 @@
   "WorkspaceRootPath": "D:\\Personal\\RPG\\MassiveRPG\\MassiveTTRPG\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AB6B0B72-6749-CE30-29C1-0DC0944A3CC2}|Assembly-CSharp.csproj|d:\\personal\\rpg\\massiverpg\\massivettrpg\\assets\\scripts\\ui\\mainmenuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AB6B0B72-6749-CE30-29C1-0DC0944A3CC2}|Assembly-CSharp.csproj|d:\\personal\\rpg\\massiverpg\\massivettrpg\\assets\\scripts\\managers\\navigationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB6B0B72-6749-CE30-29C1-0DC0944A3CC2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\navigationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB6B0B72-6749-CE30-29C1-0DC0944A3CC2}|Assembly-CSharp.csproj|D:\\Personal\\RPG\\MassiveRPG\\MassiveTTRPG\\assets\\scripts\\ui\\joingameui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB6B0B72-6749-CE30-29C1-0DC0944A3CC2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\joingameui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB6B0B72-6749-CE30-29C1-0DC0944A3CC2}|Assembly-CSharp.csproj|D:\\Personal\\RPG\\MassiveRPG\\MassiveTTRPG\\assets\\scripts\\ui\\creategameui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB6B0B72-6749-CE30-29C1-0DC0944A3CC2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\creategameui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB6B0B72-6749-CE30-29C1-0DC0944A3CC2}|Assembly-CSharp.csproj|D:\\Personal\\RPG\\MassiveRPG\\MassiveTTRPG\\assets\\scripts\\ui\\mainmenuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB6B0B72-6749-CE30-29C1-0DC0944A3CC2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\mainmenuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB6B0B72-6749-CE30-29C1-0DC0944A3CC2}|Assembly-CSharp.csproj|d:\\personal\\rpg\\massiverpg\\massivettrpg\\assets\\scripts\\ui\\userprofileui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AB6B0B72-6749-CE30-29C1-0DC0944A3CC2}|Assembly-CSharp.csproj|D:\\Personal\\RPG\\MassiveRPG\\MassiveTTRPG\\assets\\scripts\\ui\\userprofileui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB6B0B72-6749-CE30-29C1-0DC0944A3CC2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\userprofileui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -17,14 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{AB6B0B72-6749-CE30-29C1-0DC0944A3CC2}|Assembly-CSharp.csproj|D:\\Personal\\RPG\\MassiveRPG\\MassiveTTRPG\\assets\\scripts\\managers\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB6B0B72-6749-CE30-29C1-0DC0944A3CC2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB6B0B72-6749-CE30-29C1-0DC0944A3CC2}|Assembly-CSharp.csproj|D:\\Personal\\RPG\\MassiveRPG\\MassiveTTRPG\\assets\\scripts\\ui\\joingameui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB6B0B72-6749-CE30-29C1-0DC0944A3CC2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\joingameui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB6B0B72-6749-CE30-29C1-0DC0944A3CC2}|Assembly-CSharp.csproj|D:\\Personal\\RPG\\MassiveRPG\\MassiveTTRPG\\assets\\scripts\\ui\\creategameui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB6B0B72-6749-CE30-29C1-0DC0944A3CC2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\creategameui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AB6B0B72-6749-CE30-29C1-0DC0944A3CC2}|Assembly-CSharp.csproj|D:\\Personal\\RPG\\MassiveRPG\\MassiveTTRPG\\assets\\scripts\\ui\\assigncharacterui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,37 +70,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "NavigationManager.cs",
+              "DocumentMoniker": "D:\\Personal\\RPG\\MassiveRPG\\MassiveTTRPG\\Assets\\Scripts\\Managers\\NavigationManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\NavigationManager.cs",
+              "ToolTip": "D:\\Personal\\RPG\\MassiveRPG\\MassiveTTRPG\\Assets\\Scripts\\Managers\\NavigationManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\NavigationManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T12:48:03.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "UserProfileUI.cs",
               "DocumentMoniker": "D:\\Personal\\RPG\\MassiveRPG\\MassiveTTRPG\\Assets\\Scripts\\UI\\UserProfileUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UserProfileUI.cs",
               "ToolTip": "D:\\Personal\\RPG\\MassiveRPG\\MassiveTTRPG\\Assets\\Scripts\\UI\\UserProfileUI.cs",
               "RelativeToolTip": "Assets\\Scripts\\UI\\UserProfileUI.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T12:08:10.369Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T12:08:10.369Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "MainMenuUI.cs",
               "DocumentMoniker": "D:\\Personal\\RPG\\MassiveRPG\\MassiveTTRPG\\Assets\\Scripts\\UI\\MainMenuUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\MainMenuUI.cs",
               "ToolTip": "D:\\Personal\\RPG\\MassiveRPG\\MassiveTTRPG\\Assets\\Scripts\\UI\\MainMenuUI.cs",
               "RelativeToolTip": "Assets\\Scripts\\UI\\MainMenuUI.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwBgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAQwHQAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T15:19:46.795Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T15:19:46.795Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "AssignCharacterUI.cs",
               "DocumentMoniker": "D:\\Personal\\RPG\\MassiveRPG\\MassiveTTRPG\\Assets\\Scripts\\UI\\AssignCharacterUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\AssignCharacterUI.cs",
@@ -108,31 +123,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "CreateGameUI.cs",
               "DocumentMoniker": "D:\\Personal\\RPG\\MassiveRPG\\MassiveTTRPG\\Assets\\Scripts\\UI\\CreateGameUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\CreateGameUI.cs",
               "ToolTip": "D:\\Personal\\RPG\\MassiveRPG\\MassiveTTRPG\\Assets\\Scripts\\UI\\CreateGameUI.cs",
               "RelativeToolTip": "Assets\\Scripts\\UI\\CreateGameUI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-23T15:20:23.368Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "JoinGameUI.cs",
               "DocumentMoniker": "D:\\Personal\\RPG\\MassiveRPG\\MassiveTTRPG\\Assets\\Scripts\\UI\\JoinGameUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\JoinGameUI.cs",
               "ToolTip": "D:\\Personal\\RPG\\MassiveRPG\\MassiveTTRPG\\Assets\\Scripts\\UI\\JoinGameUI.cs",
               "RelativeToolTip": "Assets\\Scripts\\UI\\JoinGameUI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-23T15:20:58.186Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "SaveManager.cs",
               "DocumentMoniker": "D:\\Personal\\RPG\\MassiveRPG\\MassiveTTRPG\\Assets\\Scripts\\Managers\\SaveManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\SaveManager.cs",
@@ -140,12 +155,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Managers\\SaveManager.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAQwBYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T06:56:19.318Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T06:56:19.318Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "GameManager.cs",
               "DocumentMoniker": "D:\\Personal\\RPG\\MassiveRPG\\MassiveTTRPG\\Assets\\Scripts\\Managers\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\GameManager.cs",
@@ -157,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "GameData.cs",
               "DocumentMoniker": "D:\\Personal\\RPG\\MassiveRPG\\MassiveTTRPG\\Assets\\Scripts\\Data\\GameData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\GameData.cs",
@@ -169,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "CharacterDetailUI.cs",
               "DocumentMoniker": "D:\\Personal\\RPG\\MassiveRPG\\MassiveTTRPG\\Assets\\Scripts\\UI\\CharacterDetailUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\CharacterDetailUI.cs",
@@ -181,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "GMPanelUI.cs",
               "DocumentMoniker": "D:\\Personal\\RPG\\MassiveRPG\\MassiveTTRPG\\Assets\\Scripts\\UI\\GMPanelUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\GMPanelUI.cs",
@@ -193,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "PlayerPanelUI.cs",
               "DocumentMoniker": "D:\\Personal\\RPG\\MassiveRPG\\MassiveTTRPG\\Assets\\Scripts\\UI\\PlayerPanelUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\PlayerPanelUI.cs",
@@ -205,7 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "CharacterDisplay.cs",
               "DocumentMoniker": "D:\\Personal\\RPG\\MassiveRPG\\MassiveTTRPG\\Assets\\Scripts\\UI\\CharacterDisplay.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\CharacterDisplay.cs",
@@ -217,7 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "UserData.cs",
               "DocumentMoniker": "D:\\Personal\\RPG\\MassiveRPG\\MassiveTTRPG\\Assets\\Scripts\\Data\\UserData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\UserData.cs",
@@ -229,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "CharacterData.cs",
               "DocumentMoniker": "D:\\Personal\\RPG\\MassiveRPG\\MassiveTTRPG\\Assets\\Scripts\\Data\\CharacterData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\CharacterData.cs",

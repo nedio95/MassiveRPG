@@ -5,7 +5,7 @@ using static System.Net.Mime.MediaTypeNames;
 using System.Collections.Generic;
 using System.IO;
 
-public class MainMenuUI : MonoBehaviour
+public class MainMenuUI : PanelBase
 {
     public TMP_InputField usernameInput;
     public GameObject 
@@ -119,5 +119,10 @@ public class MainMenuUI : MonoBehaviour
         playerPanel.SetActive(false);
         gmPanel.SetActive(false);
         mainMenuPanel.SetActive(true);
+    }
+
+    public void Refresh()
+    {
+        // reload username, reload available games
     }
 }
