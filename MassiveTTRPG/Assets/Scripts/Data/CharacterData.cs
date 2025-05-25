@@ -11,4 +11,6 @@ public class CharacterData
     public string private_description;
     public bool isPublic;
     public List<string> assignedToPlayerId = new();
+
+    public string artworkUrl;
 }

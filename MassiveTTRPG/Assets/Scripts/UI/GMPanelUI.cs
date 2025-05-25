@@ -37,18 +37,6 @@ public class GMPanelUI : PanelBase
 
     public void OnCreateCharacter()
     {
-        CharacterData newChar = new CharacterData
-        {
-            id = System.Guid.NewGuid().ToString(),
-            name = "New Character",
-            role = "Undefined",
-            public_description = "",
-            private_description = "",
-            isPublic = true,
-            assignedToPlayerId = null
-        };
-
-        GameManager.Instance.currentGame.characters.Add(newChar);
-        RefreshList();
+        NavigationManager.Instance.OpenPanel("Create Character - Panel");
     }
 }
