@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
@@ -9,5 +10,5 @@ public class CharacterData
     public string public_description;
     public string private_description;
     public bool isPublic;
-    public string assignedToPlayerId;
+    public List<string> assignedToPlayerId = new();
 }

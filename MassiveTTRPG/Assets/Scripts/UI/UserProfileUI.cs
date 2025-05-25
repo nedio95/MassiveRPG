@@ -8,9 +8,15 @@ public class UserProfileUI : PanelBase
     public TMP_InputField usernameInput;
     public GameObject userProfilePanel;
     public GameObject mainMenuPanel;
+    public GameObject navigationManager;
 
     public TMP_Dropdown loadProfileDropdown;
     private List<string> userIds = new();
+
+    public override void RefreshPanel()
+    {
+        // Update Main Menu stuff here
+    }
 
     public void Start()
     {
@@ -38,8 +44,7 @@ public class UserProfileUI : PanelBase
         GameManager.Instance.currentUser = newUser;
         SaveManager.SaveUser(newUser);
 
-        userProfilePanel.SetActive(false);
-        mainMenuPanel.SetActive(true);
+        NavigationManager.Instance.OpenPanel("Main Menu - Panel");
     }
 
     public void OnLoadProfilePressed()
@@ -52,8 +57,7 @@ public class UserProfileUI : PanelBase
 
             GameManager.Instance.currentUser = user;
 
-            userProfilePanel.SetActive(false);
-            mainMenuPanel.SetActive(true);
+            NavigationManager.Instance.OpenPanel("Main Menu - Panel");
         }
     }
 

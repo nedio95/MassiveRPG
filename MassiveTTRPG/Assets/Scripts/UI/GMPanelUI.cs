@@ -8,6 +8,11 @@ public class GMPanelUI : PanelBase
     public CharacterDetailUI detailPanel;
     public AssignCharacterUI assignPanel;
 
+    public override void RefreshPanel()
+    {
+        // Update Main Menu stuff here
+    }
+
     private void OnEnable()
     {
         RefreshList();

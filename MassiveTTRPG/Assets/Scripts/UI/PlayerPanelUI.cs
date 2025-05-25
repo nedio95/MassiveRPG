@@ -3,41 +3,40 @@ using UnityEngine;
 
 public class PlayerPanelUI : PanelBase
 {
+    [Header("UI References")]
     public Transform publicListParent;
     public Transform assignedListParent;
     public GameObject characterCardPrefab;
     public CharacterDetailUI detailPanel;
 
-    private void OnEnable()
+    public override void RefreshPanel()
     {
         RefreshLists();
     }
 
-    public void RefreshLists()
+    private void RefreshLists()
     {
-        foreach (Transform child in publicListParent)
-            Destroy(child.gameObject);
-        foreach (Transform child in assignedListParent)
-            Destroy(child.gameObject);
+        // Clear old entries
+        foreach (Transform t in publicListParent) Destroy(t.gameObject);
+        foreach (Transform t in assignedListParent) Destroy(t.gameObject);
 
-        var characters = GameManager.Instance.currentGame.characters;
+        var game = GameManager.Instance.currentGame;
         var userId = GameManager.Instance.currentUser.userId;
 
-        foreach (var character in characters)
+        foreach (var character in game.characters)
         {
-            if (character.assignedToPlayerId == userId)
+            // now using the List<string>
+            if (character.assignedToPlayerId.Contains(userId))
             {
-                var card = Instantiate(characterCardPrefab, assignedListParent);
-                card.GetComponent<CharacterDisplay>().Setup(character, (data) => {
-                    detailPanel.Open(data, false);
-                });
+                var go = Instantiate(characterCardPrefab, assignedListParent);
+                go.GetComponent<CharacterDisplay>()
+                  .Setup(character, data => detailPanel.Open(data, false));
             }
             else if (character.isPublic)
             {
-                var card = Instantiate(characterCardPrefab, publicListParent);
-                card.GetComponent<CharacterDisplay>().Setup(character, (data) => {
-                    detailPanel.Open(data, false);
-                });
+                var go = Instantiate(characterCardPrefab, publicListParent);
+                go.GetComponent<CharacterDisplay>()
+                  .Setup(character, data => detailPanel.Open(data, false));
             }
         }
     }

@@ -19,6 +19,11 @@ public class MainMenuUI : PanelBase
     public TMP_Dropdown gameSelectDropdown;
     private List<string> loadedGameIds = new();
 
+    public override void RefreshPanel()
+    {
+        // Update Main Menu stuff here
+    }
+
     private void Start()
     {
         Debug.Log(UnityEngine.Application.persistentDataPath);
@@ -73,21 +78,18 @@ public class MainMenuUI : PanelBase
 
     public void OnCreateGamePressed()
     {
-        mainMenuPanel.SetActive(false);
-        createGamePanel.SetActive(true);
+        NavigationManager.Instance.OpenPanel("Create Game - Panel");
     }
 
     public void OnJoinGamePressed()
     {
 
-        mainMenuPanel.SetActive(false);
-        joinGamePanel.SetActive(true);
+        NavigationManager.Instance.OpenPanel("Join Game - Panel");
     }
 
     public void OnContinuePressed()
     {
-        mainMenuPanel.SetActive(false);
-        continuePanel.SetActive(true);
+        NavigationManager.Instance.OpenPanel("Create Game - Panel");
     }
 
     public void OnConfirmContinue()
@@ -100,25 +102,19 @@ public class MainMenuUI : PanelBase
 
         if (game.gmUserIds.Contains(user.userId))
         {
-            gmPanel.SetActive(true);
+            NavigationManager.Instance.OpenPanel("GM - Panel");
         }
         else
         {
-            playerPanel.SetActive(true);
+            NavigationManager.Instance.OpenPanel("Player Game - Panel");
         }
 
         continuePanel.SetActive(false);
     }
 
     public void GoBackToMainMenu()
-    {  
-        
-        createGamePanel.SetActive(false);
-        joinGamePanel.SetActive(false);
-        continuePanel.SetActive(false);
-        playerPanel.SetActive(false);
-        gmPanel.SetActive(false);
-        mainMenuPanel.SetActive(true);
+    {
+        NavigationManager.Instance.OpenPanel("Main Menu - Panel");
     }
 
     public void Refresh()

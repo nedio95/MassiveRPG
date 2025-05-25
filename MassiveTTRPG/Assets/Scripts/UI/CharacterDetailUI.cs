@@ -14,6 +14,13 @@ public class CharacterDetailUI : PanelBase
 
     private CharacterData currentData;
 
+    public override void RefreshPanel()
+    {
+        ownerText.text = currentData.assignedToPlayerId.Count > 0
+            ? "Assigned to: " + string.Join(", ", currentData.assignedToPlayerId)
+            : "Unassigned";
+    }
+
     public void Open(CharacterData data, bool isEditable)
     {
         gameObject.SetActive(true);

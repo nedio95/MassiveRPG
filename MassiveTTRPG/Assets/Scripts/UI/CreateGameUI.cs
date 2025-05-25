@@ -13,7 +13,7 @@ public class CreateGameUI : PanelBase
         gmPanel.SetActive(true);
     }
 
-    public void Refresh()
+    public override void RefreshPanel()
     {
         // auto-fill a new suggested game name
     }
